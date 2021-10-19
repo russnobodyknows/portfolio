@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination</title>
+    <link rel="stylesheet" href="vaccine.css">
+</head>
+<body>
+    <section id="overlay">
+        <hr>
+        <form action="submission.html" method="POST">
+          <h1>Vaccination Form</h1>
+                      <section class="protein">
+            <label for="patty">Name:</label>
+                  <input type="text" name="patty" id="patty">
+          </section>
+          <hr>
+          <section class="patties">
+            <label for="amount">Address:</label>
+            <input type="text" name="amount" id="amount">
+          </section>
+          <hr>
+          <section class="patties">
+            <label for="amount">Age:</label>
+            <input type="text" name="amount" id="amount">
+          </section>
+          <hr>
+          <section class="patties">
+            <label for="amount">Contact No:</label>
+            <input type="text" name="amount" id="amount">
+          </section>
+          <hr>
+          <section class="patties">
+            <label for="amount">Temperature:</label>
+            <input type="text" name="amount" id="amount">
+          </section>
+          <hr>
+          <section class="toppings">
+            <span>Type of Vaccine to be taken</span>
+            <br>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+            <label for="lettuce">Pfizer Biontech</label>
+            <input type="checkbox" name="topping" id="tomato" value="tomato">
+            <label for="tomato">Astrazenica</label>
+            <input type="checkbox" name="topping" id="onion" value="onion">
+            <label for="onion">Moderna</label>
+          </section>
+          <hr>
+          <section class="cheesy">
+            <span>Dose taken</span>
+            <br>
+            <input type="radio" name="cheese" id="yes" value="yes">
+            <label for="yes">First</label>
+            <input type="radio" name="cheese" id="no" value="yes">
+            <label for="no">Second</label>
+          </section>
+          <hr>
+          <section class="bun-type">
+            <label for="bun">Priority Group/Sector:</label>
+            <select name="bun" id="bun">
+              <option value="sesame">A1</option>
+              <option value="potatoe">A2</option>
+              <option value="pretzel">A3</option>
+              <option value="hotdog">A4</option>
+              <option value="nibba">A5</option>
+            </select>
+          </section>
+          <hr>
+          <section class="sauce-selection">
+            <label for="sauce">Vaccination Time:</label>
+            <input list="sauces" id="sauce" name="sauce">
+            <datalist id="sauces">
+              <option value="9:00am"></option>
+              <option value="9:30am"></option>
+              <option value="10:00am"></option>
+              <option value="10:30am"></option>
+              <option value="11:00am"></option>
+              <option value="1:00pm"></option>
+              <option value="1:30pm"></option>
+              <option value="2:00pm"></option>
+              <option value="2:30pm"></option>
+              <option value="3:00pm"></option>
+              <option value="3:30pm"></option>
+              <option value="4:00pm"></option>
+              <option value="4:30pm"></option>
+              <option value="5:00pm"></option>
+            </datalist>
+          </section>
+          <hr>
+          <section class="extra-info">
+            <label for="extra">Signature Over Printed Name</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+          </section>
+          <hr>
+  
+          <section class="submission">
+            <!--Add your code below-->
+            <form>
+              <input type = "submit">
+            </form>
+            
+          </section>
+          
+        </form>
+      </section>
+    </body>
+  </html>
