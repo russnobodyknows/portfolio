@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a href="#" class="navbar-brand text-primary fw-bold fs-4 logo">
+          <svg viewBox="0 0 235.47 92.29">
+            <g data-name="Layer 2">
+              <g data-name="Layer 1">
+                <path d="M71 11.73v15.91c-3.73-3.38-8.8-4.74-14.22-4.74-8.8 0-13.09 1.92-18 4.06a52.23 52.23 0 0 1-24.48 5.42A35.19 35.19 0 0 1 0 29.45v-16c3.84 3.38 8.8 4.74 14.22 4.74 9.25 0 13.65-1.92 18.84-4.18A51.51 51.51 0 0 1 56.75 8.8 35.36 35.36 0 0 1 71 11.73zm-.79 31.14H71V57.2a2 2 0 0 0-.79-.11 4.14 4.14 0 0 0-3.28 1.69 18.48 18.48 0 0 1-14.1 6.66 18.26 18.26 0 0 1-14-6.66 4.44 4.44 0 0 0-3.27-1.69 4.1 4.1 0 0 0-3.27 1.69 18.67 18.67 0 0 1-14.11 6.66 18.65 18.65 0 0 1-14.1-6.66 4.1 4.1 0 0 0-3.29-1.69 2.25 2.25 0 0 0-.79.11V42.87h.79a18.88 18.88 0 0 1 14.1 6.66 4.63 4.63 0 0 0 3.27 1.8 4.25 4.25 0 0 0 3.28-1.8 18.88 18.88 0 0 1 14.1-6.66 18.66 18.66 0 0 1 14 6.66 4.6 4.6 0 0 0 3.27 1.8 4.23 4.23 0 0 0 3.27-1.8 19.08 19.08 0 0 1 14.1-6.66z" fill="#00255b"/>
+                <path d="M153.22 35.54a15.68 15.68 0 0 1-.12 2.37h-14.21a17.1 17.1 0 0 0 .11-2.37 21.29 21.29 0 0 0-12-19.18 20.4 20.4 0 0 1 .11 2.59 22.73 22.73 0 0 1-6 15.69 2.8 2.8 0 0 0-.45.56 2.24 2.24 0 0 1 .45.56c3.16 3.62 8.35 9.6 8.35 21A28.57 28.57 0 0 1 126 71h-17.69c4-2.82 7.11-9 7.11-14.22 0-6.09-2.37-8.8-4.85-11.73-2.14-2.26-4.63-5.19-4.63-9.48 0-4.74 2.6-7.9 4.29-10s2.82-3.27 2.82-6.55a5.53 5.53 0 0 0-1.47-3.83 21.5 21.5 0 0 0-15.11 20.35c0 .79.11 1.58.11 2.37H82.36c0-.79-.11-1.58-.11-2.37a35.49 35.49 0 1 1 71 0zm-32.61 49.64 4.29 4.18-2.9 2.93-4.21-4.29-4.29 4.29-2.82-2.93 4.32-4.18-4.29-4.29 2.82-2.82 4.29 4.29 4.18-4.29 2.94 2.82z" fill="#00cfff"/>
+                <path d="M235.47 1.58v15c-2.15-1.8-3.95-2.36-7.11-2.36-6.21 0-9.59 5.75-13.43 19h13.43v14.1H211.1a61.77 61.77 0 0 1-4.4 11.4C202.3 66.79 196.09 71 188.19 71a19 19 0 0 1-18.95-19v-4.73h-4.74v-14.1h19V52a4.76 4.76 0 0 0 4.73 4.74c5.64 0 8.24-8.8 11.62-22.11 1.92-7.56 3.95-15.46 7.45-21.78C211.89 4.4 218.66 0 227.23 0a22.69 22.69 0 0 1 8.24 1.58zM195.3 0a4.77 4.77 0 0 0-4.74 4.74 4.74 4.74 0 1 0 9.48 0A4.76 4.76 0 0 0 195.3 0z" fill="#0af"/>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <div class="dropdown">
+          <button class="btn btn-primary px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            <i class="fas fa-bars"></i>
+          </button>
+  
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a href="#home" class="dropdown-item">Home</a></li>
+            <li><a href="#about" class="dropdown-item">About</a></li>
+            <li><a href="#services" class="dropdown-item">Services</a></li>
+            <li><a href="#portfolio" class="dropdown-item">Portfolio</a></li>
+            <li><a href="#testimonials" class="dropdown-item">Testimonials</a></li>
+            <li><a href="#contact" class="dropdown-item">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Home Section -->
+    <section id="home" class="home py-5">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img src="img/Profile.jpg" class="profile-img bg-info rounded-circle mw-100" alt="profile img">
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text text-center text-md-start">
+              <p class="text-muted mb-1">Hello I'm</p>
+              <h1 class="text-primary text-uppercase fs-1 fw-bold">Russell Apolonio</h1>
+              
+              <h2 class="fs-4">A BSCS Student</h2>
+              <p class="mt-4 text-mted">"Struggle now and enjoy later" <br> -Unknown</p>
+              <a class="btn btn-lg btn-dark px-5 mt-3" href="#portfolio">Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- About Section -->
+    <section id="about" class="about py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text text-center text-md-start">
+              <h3 class="fs-4 mb-3">I'm Russell "Rus" Apolonio</h3>
+              <p class="text-muted">My life revolves on games and digital things.</p>
+              <p class="text-muted">A College taking Bachelor of Science in Computer Science at the <a href="https://uic.edu.ph">University of Immaculate Conception</a> </p>
+              <p class="text-muted">I just find the field a great match for my introverted personality and my analytical skills. I’ve always excelled in Math, and I found it easy to write the code, for some school projects I’ve participated on. What’s more, though it may sound strange, I’ve always enjoyed the time I spent on my own, working on the computer, or watching documentaries.</div>
+  
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">20%</h4>
+                  <p class="text-muted">Power</p>
+                </div>
+              </div>
+  
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">100%</h4>
+                  <p class="text-muted">CritRate</p>
+                </div>
+              </div>
+  
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">200%</h4>
+                  <p class="text-muted">CritDMG</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">HTML</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">CSS</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">JavaScript</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 30%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Graphic Design</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">C / C++</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 15%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Visual Graphics</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Photo Editing</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;"></div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Service Section -->
+    <section id="services" class="services py-5">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="fs-5 py-2">Web Development</h3>
+              <p class="text-muted">I build websites using HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="fs-5 py-2">Visual Graphic Design</h3>
+              <p class="text-muted">I create business based designs and logos.</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3 class="fs-5 py-2">Game Enthusiast</h3>
+              <p class="text-muted">I create game theories and events solver.</p>
+            </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Demo Pages</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="img/1.JPG" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Vaccination</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="img/2.JPG" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Gallery</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="img/3.JPG" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Responsive</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="img/4.JPG" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Restaurant</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="img/5.JPG" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">ReviewOnEcmaScript</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="img/6.JPG" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Webb App</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Freelancer Available Section -->
+    <section id="freelancer-available" class="freelancer-available py-5 bg-primary">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">WebAppIdea</p>
+            <h2 class="text-white fs-1 mb-4">Support Us</h2>
+            <a href="https://buy-d-hour.herokuapp.com/" id="contact" class="btn btn-outline-light">Click here</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="testimonials py-5">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carousel1" data-bs-slide-to="0" class="bg-primary active"></li>
+                <li data-bs-target="#carousel1" data-bs-slide-to="1" class="bg-primary"></li>
+                <li data-bs-target="#carousel1" data-bs-slide-to="2" class="bg-primary"></li>
+              </ol>
+  
+              <div class="carousel-inner p-1">
+                <div class="carousel-item active testi-item mb-5 bg-white shadow-sm rounded p-4">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="img-thumbnail rounded-circle" src="img/testimonial/2.jpg" height="73px" width="73px" alt="author img">
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Rastaman</h3>
+                      <p class="text-muted m-0">Half Human Half Zombie</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Wachu gonna do wid da big pat bud.</p>
+                  <div class="rating text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+  
+                <div class="carousel-item testi-item mb-5 bg-white shadow-sm rounded p-4">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="img-thumbnail rounded-circle" src="img/testimonial/3.jpg" height="73px" width="73px" alt="author img">
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Janjo</h3>
+                      <p class="text-muted m-0">Tao/human</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">pwede na ni</p>
+                  <div class="rating text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+  
+                <div class="carousel-item testi-item mb-5 bg-white shadow-sm rounded p-4">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="img-thumbnail rounded-circle" src="img/testimonial/1.jpg" height="73px" width="73px" alt="author img">
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">TORONTOTOKYO</h3>
+                      <p class="text-muted m-0">TI MVP</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Super Idol!</p>
+                  <div class="rating text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-dark">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted">russellapolonio@gmail.com</p>
+              </div>
+            </div>
+  
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-info">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Phone</h3>
+                <a href="" class="text-muted">+63 907 405 2345</a>
+              </div>
+            </div>
+  
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-primary">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Visit Office</h3>
+                <p class="text-muted">Toril, Davao City - 8000</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-7">
+            <div class="contact-item">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <input type="text" placeholder="Your Name"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <input type="email" placeholder="Your E-mail"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea rows="5" placeholder="Your Message"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button class="btn btn-primary px-3" type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <footer class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-muted">&copy; 2025 from the future</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
